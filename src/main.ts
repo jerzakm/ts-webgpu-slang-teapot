@@ -50,7 +50,10 @@ function resizeCanvas() {
 }
 resizeCanvas();
 
-const model = await loadModelRaw(device, "/models/teapot.obj");
+const model = await loadModelRaw(
+  device,
+  `${import.meta.env.BASE_URL}models/teapot.obj`,
+);
 
 const shaderModule = device.createShaderModule({ code });
 
