@@ -8,7 +8,7 @@ It uses:
 - WebGPU for rendering
 - `vite-slang` to import `.slang` files and compile them to WGSL at build/dev time
 
-Huge credit for Cody for https://github.com/CodyJasonBennett/vite-slang
+
 
 ## Run
 
@@ -18,3 +18,7 @@ pnpm dev
 ```
 
 Then open the local Vite URL in a WebGPU-capable browser.
+
+
+Huge credit for Cody for https://github.com/CodyJasonBennett/vite-slang
+Teapot scene adapted from: https://docs.swmansion.com/TypeGPU/examples/#example=rendering--phong-reflection
